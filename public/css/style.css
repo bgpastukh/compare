@@ -1,0 +1,11 @@
+body{
+    padding-top: 50px;
+}
+form{
+    width: 400px;
+    max-width: 400px;
+}
+.cl{
+    font-size:35px;
+    color: #cd96b6;
+}
