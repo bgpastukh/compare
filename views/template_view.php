@@ -6,6 +6,6 @@
     <link rel="stylesheet" href="../public/css/style.css">
 </head>
 <body>
-<?php include '../views/'.$content_view; echo PUBLIC_DIR.DS."css/style.css";?>
+<?php include '../views/'.$content_view;?>
 </body>
 </html>

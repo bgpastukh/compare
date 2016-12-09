@@ -5,7 +5,7 @@
 
 <?php if (is_string($data)){ ?>
 
-<h3 class="cl"><?= $data ?></h3>
+<h3><?= $data ?></h3>
 
 <?php } elseif ($data){
     foreach ($data as $line){
@@ -17,12 +17,10 @@
     document.getElementById('load').addEventListener('click', function(e) {
         e.preventDefault();
         if (confirm("Are you sure?")) {
-            document.location.href = '/main/load';
-        } else {
-            alert('Aborted');
-            }
-        });
+            document.location.href = '/compare/main/load';
+        }
+    });
     document.getElementById('check').addEventListener('click', function(e) {
-            document.location.href = '/main/check';
-        });
+            document.location.href = '/compare/main/check';
+    });
 </script>

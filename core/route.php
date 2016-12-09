@@ -9,6 +9,7 @@ class Route
         $action_name = 'index';
 
         $routes = explode('/', $_SERVER['REQUEST_URI']);
+        array_shift($routes);
 
         // get controller
         if ( !empty($routes[1]) )
